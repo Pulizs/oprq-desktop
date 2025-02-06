@@ -1,5 +1,13 @@
 .nav-item:hover{
-    background-color: #0f3483;
+    background-color: #2a7634;
+}
+.dropdown-menu{
+    background-color: #080808;
+
+}
+.dropdown-item:hover{
+    color: white;
+    background-color: #2a7634;
 }
 
 h5{
