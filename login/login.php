@@ -19,11 +19,11 @@
         <div class="container">
             <center>
                 <div class="card" style="width: 50%;">
-                    <form action="" class="needs-validation" novalidate>
+                    <form action="/oprq-desktop/login/verificarLogin.php" class="needs-validation" method="post" novalidate>
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-1">
-                                    <a href="../index.html" class="text-start">
+                                    <a href="../index.php" class="text-start">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                             fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd"
@@ -43,7 +43,7 @@
                         <div class="card-body">
                             <div class="input-group mb-3">
                                 <span class="input-group-text" id="basic-addon1">@</span>
-                                <input type="text" class="form-control" placeholder="Usuário ou email"
+                                <input type="text" id="user" name="user" class="form-control" placeholder="Usuário ou email"
                                     aria-label="Usuário ou email" aria-describedby="basic-addon1">
                             </div>
                             <div class="input-group mb-3">
@@ -54,7 +54,7 @@
                                             d="M0 8a4 4 0 0 1 7.465-2H14a.5.5 0 0 1 .354.146l1.5 1.5a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0L13 9.207l-.646.647a.5.5 0 0 1-.708 0L11 9.207l-.646.647a.5.5 0 0 1-.708 0L9 9.207l-.646.647A.5.5 0 0 1 8 10h-.535A4 4 0 0 1 0 8m4-3a3 3 0 1 0 2.712 4.285A.5.5 0 0 1 7.163 9h.63l.853-.854a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.793-.793-1-1h-6.63a.5.5 0 0 1-.451-.285A3 3 0 0 0 4 5" />
                                         <path d="M4 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
                                     </svg></span>
-                                <input type="text" class="form-control" placeholder="Senha" aria-label="Senha"
+                                <input type="text" id="senha" name="senha" class="form-control" placeholder="Senha" aria-label="Senha"
                                     aria-describedby="basic-addon1" required>
                             </div>
                         </div>
