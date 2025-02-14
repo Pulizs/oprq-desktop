@@ -1,13 +1,12 @@
-create database db_PedroCruz;
-use db_PedroCruz;
+create database db_oprq;
+use db_oprq;
 
-create table tb_supermercado(
+create table tb_adm(
 	id bigint not null auto_increment,
-    nome varchar(255),
-    cnpj varchar(20),
-    pagamentos_aceitos varchar(20),
+    user varchar(255),
+    senha varchar(20),
     primary key(id)
 ) ENGINE = InnoDB;
 
-insert into tb_supermercado (nome, cnpj, pagamentos_aceitos)
-values ('supernoite', '1234', 'pix');
+insert into tb_adm (user, senha)
+values ('hostChemical', '3QPkGak23VF#');

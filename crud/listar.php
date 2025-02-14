@@ -1,7 +1,7 @@
 <?php
     require_once "config.php";
 
-    $sql = "select * from tb_supermercado";
+    $sql = "select * from tb_adm";
 
     $statement = $pdo->query($sql);
 
