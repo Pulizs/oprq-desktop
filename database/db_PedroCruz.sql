@@ -52,6 +52,13 @@ create table tb_contato(
     primary key(id)
 ) ENGINE = InnoDB;
 
+create table tb_images(
+	id bigint not null auto_increment,
+    email varchar(255),
+    instagram varchar(2555),
+    celular varchar(2555),
+    primary key(id)
+) ENGINE = InnoDB;
 
 -- inserindo valor na tabela adm
 insert into tb_adm (user, senha)

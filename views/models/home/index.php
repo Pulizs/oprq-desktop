@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <?php include 'views/layout/head.php'; ?>
+    <?php include '../../layout/head.php'; ?>
 </head>
 
 <body>
 
-    <?php include 'views/layout/navbarlogged.php'; ?>
+    <?php include '../../layout/navbarlogged.php'; ?>
 
     <div class="bg-light p-5 rounded">
         <div class="container">
@@ -64,11 +64,11 @@
 
                 <div class="col">
                     <div class="row">
-                        <a class="btn btn-primary btn-lg" href="#" style="background-color: #3ab84a; color: white;"
+                        <a class="btn btn-primary btn-lg" href="#" style="background-color: #576ce3; color: white;"
                             role="button">RESULTADO I FASE</a>
                     </div><br>
                     <div class="row">
-                        <a class="btn btn-lg" href="#" style="background-color: #2a7634; color: white;"
+                        <a class="btn btn-lg" href="#" style="background-color: #273582; color: white;"
                             role="button">RESULTADO II FASE</a>
                     </div><br>
                     <div class="row">
@@ -82,41 +82,7 @@
         </div>
     </div>
 
-    <footer style="background-color: #efefef;">
-        <!-- Grid container -->
-        <div class="container p-4">
-            <!--Grid row-->
-            <div class="row">
-                <!--Grid column-->
-                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Apoiadores oficiais:</h5>
-
-                    <img src="img/ifpr logo.png" alt="">
-                </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
-                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                    <br>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                        molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-                        voluptatem veniam, est atque cumque eum delectus sint!
-                    </p>
-                </div>
-                <!--Grid column-->
-            </div>
-            <!--Grid row-->
-        </div>
-        <!-- Grid container -->
-
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-            © 2025 Copyright:
-            <a class="text-body" href="https://ifpr.edu.br/curitiba/">IFPR Curitiba</a>
-        </div>
-        <!-- Copyright -->
-    </footer>
+    <?php include '../../layout/footer.php'; ?>
 </body>
 
 </html>
