@@ -47,8 +47,13 @@
                     </ul>
                 </div>
 
-                <button class="btn me-md-2" style="background-color: #273582; color: white;"
+                <button class="btn me-md-2" style="background-color: #0e83e4; color: white;"
                     type="button">INSCREVA-SE</button>
+                    <?php if ($_SESSION["usuario"] == "adm"){
+                        echo '<a class="btn me-md-2" href="../login/logout.php" style="background-color: #0e83e4; color: white;"
+                        type="button">LOGOUT</a>';
+                    }
+                    ?>
             </div>
 
         </nav>

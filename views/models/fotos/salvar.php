@@ -2,19 +2,18 @@
 
     require_once "config.php";
 
-    $nome = $_POST['nome'];
-    $cnpj = $_POST['cnpj'];
-    $pagamentos_aceitos = $_POST['pagamentos_aceitos'];
+    $titulo = $_POST['titulo'];
+    $conteudo = $_POST['conteudo'];
 
-    $sql = "insert into tb_supermercado (nome, cnpj, pagamentos_aceitos) values (:nome, :cnpj, :pagamentos_aceitos)";
+    $sql = "insert into tb_fotos (titulo, conteudo) values (:titulo, :conteudo)";
 
     $stm = $pdo->prepare($sql);
 
     $stm->execute(
-        [':nome' => $nome, ':cnpj' => $cnpj, ':pagamentos_aceitos' => $pagamentos_aceitos]
+        [':titulo' => $titulo, ':conteudo' => $conteudo]
     );
 
-    echo "Supermercado cadastrado com sucesso!!<br/>";
-    echo "<a href='/lista2/listar.php'>Voltar</a>";
+    echo "foto cadastrado com sucesso!!<br/>";
+    echo "<a href='./index.php'>Voltar</a>";
 
 ?>

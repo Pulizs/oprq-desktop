@@ -1,21 +1,49 @@
 <?php
 
-    require_once "config.php";
+require_once "config.php";
 
-    $id = $_POST['id'];
-    $nome = $_POST['nome'];
-    $cnpj = $_POST['cnpj'];
-    $pagamentos_aceitos = $_POST['pagamentos_aceitos'];
-    
-    $sql = "update tb_supermercado set nome = :nome, cnpj = :cnpj, pagamentos_aceitos = :pagamentos_aceitos where id= :id";
+$id = $_POST['id'];
+$cidade = $_POST['cidade'];
+$escola = $_POST['escola'];
+$localizacao = $_POST['localizacao'];
+$dataProva = $_POST['dataProva'];
 
-    $stm = $pdo->prepare($sql);
+$sql = "update tb_locaisDeProva set cidade = :cidade, escola = :escola, localizacao = :localizacao, dataProva = :dataProva where id= :id";
 
-    $stm->execute(
-        [':nome' => $nome, ':cnpj' => $cnpj, ':pagamentos_aceitos' => $pagamentos_aceitos, ':id' => $id]
-    );
+$stm = $pdo->prepare($sql);
 
-    echo "Supermercado atualizado com sucesso!!<br/>";
-    echo "<a href='/lista2/listar.php'>Voltar</a>";
+$stm->execute(
+    [':cidade' => $cidade, ':escola' => $escola, ':localizacao' => $localizacao, ':dataProva' => $dataProva]
+);
+
+// echo "datas de prova atualizado com sucesso!!<br/>";
+// echo "<a href='./index.php'>Voltar</a>";
 
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <?php include '../../layout/head.php'; ?>
+</head>
+
+<body>
+    <div class="bg-light p-5 rounded">
+        <div class="container">
+            <center>
+                <div class="card" style="width: 30%;">
+                    <center>
+                        <img src="../../../assets/img/verifi.gif" alt="" style="width: 40%;">
+                    </center>
+                    <div class="card-body">
+                        <p class="card-text">Local editado com Sucesso</p>
+                        <a type="button" href="./index.php" class="btn btn-success">Feito!</a>
+                    </div>
+                </div>
+            </center>
+        </div>
+    </div>
+</body>
+
+</html>

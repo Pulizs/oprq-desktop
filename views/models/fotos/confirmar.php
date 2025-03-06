@@ -3,18 +3,18 @@
 require_once "config.php";
 
 $id = $_GET['id'];
-$sql = "select * from tb_supermercado where id = :idSupermercado";
+$sql = "select * from tb_fotos where id = :idFotos";
 
 $stm = $pdo->prepare($sql);
 
-$stm->execute([':idSupermercado' => $id]);
+$stm->execute([':idFotos' => $id]);
 
-$supermercado = $stm->fetch(PDO::FETCH_ASSOC);
+$foto = $stm->fetch(PDO::FETCH_ASSOC);
 
-echo "ID:" .$supermercado["id"]."<br/>";
-echo "Nome:" .$supermercado["nome"]."<br/>";
-echo "CNPJ:" .$supermercado["cnpj"]."<br/>";
-echo "Pagamentos Aceitos:" .$supermercado["pagamentos_aceitos"]."<br/>";
+echo "ID:" .$foto["id"]."<br/>";
+echo "Nome:" .$foto["nome"]."<br/>";
+echo "CNPJ:" .$foto["cnpj"]."<br/>";
+echo "Pagamentos Aceitos:" .$foto["pagamentos_aceitos"]."<br/>";
 
 echo "<br/>";
     

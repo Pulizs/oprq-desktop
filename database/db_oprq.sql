@@ -28,7 +28,7 @@ create table tb_locaisDeProva(
     cidade varchar(255),
     escola varchar(255),
     localizacao varchar(255),
-    dataProva date(),
+    dataProva date,
     primary key(id)
 ) ENGINE = InnoDB;
 
@@ -52,11 +52,10 @@ create table tb_contato(
     primary key(id)
 ) ENGINE = InnoDB;
 
-create table tb_images(
+create table tb_fotos(
 	id bigint not null auto_increment,
-    email varchar(255),
-    instagram varchar(2555),
-    celular varchar(2555),
+    titulo varchar(255),
+    conteudo varchar(255),
     primary key(id)
 ) ENGINE = InnoDB;
 

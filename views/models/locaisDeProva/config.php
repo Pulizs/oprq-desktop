@@ -1,6 +1,6 @@
 <?php
     $server = "localhost";
-    $database = "db_PedroCruz";
+    $database = "db_oprq";
     $user = "root";
     $pass = "";
 

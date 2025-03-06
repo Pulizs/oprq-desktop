@@ -1,11 +1,11 @@
 <?php
 require_once "config.php";
 
-$sql = "select * from tb_fotos";
+$sql = "select * from tb_objetivos";
 
 $statement = $pdo->query($sql);
 
-$fotos = $statement->fetchAll(PDO::FETCH_ASSOC);
+$objetivos = $statement->fetchAll(PDO::FETCH_ASSOC);
 
 ?>
 
@@ -25,7 +25,7 @@ $fotos = $statement->fetchAll(PDO::FETCH_ASSOC);
 				<div class="col-md-9">
 					<div class="row">
 						<div class="row">
-							<h5>fotos:</h5>
+							<h5>objetivos:</h5>
 						</div>
 						<div class="row">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam molestias explicabo
@@ -37,13 +37,13 @@ $fotos = $statement->fetchAll(PDO::FETCH_ASSOC);
 
 						<div class="row row-cols-1 row-cols-md-2 g-4">
 							<?php
-							foreach ($fotos as $foto) {
+							foreach ($objetivos as $objetivo) {
 								echo '<div class="col">
 								<div class="card">
 									<img src="..." class="card-img-top" alt="...">
 									<div class="card-body">
-										<h5 class="card-title">' . $foto['titulo'] . '</h5>
-										<p class="card-text">' . $foto['conteudo'] . '</p>
+										<h5 class="card-title">' . $objetivo['titulo'] . '</h5>
+										<p class="card-text">' . $objetivo['conteudo'] . '</p>
 									</div>
 								</div>
 							</div>';

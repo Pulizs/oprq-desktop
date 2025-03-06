@@ -12,7 +12,18 @@
     <div class="bg-light p-5 rounded">
         <div class="container">
 
+            <?php
+            if ($_SESSION["usuario"] == "adm") {
+                echo '<div class="row">
+							<div class="col">
+							<a type="button" href="./create.php" class="btn btn-primary">Criar Avisos</a><br>
+							</div>
+							</div>';
+            }
 
+            ?>
+
+            <br>
             <div class="row">
                 <div class="col-md-9">
                     <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -62,22 +73,8 @@
 
                 </div>
 
-                <div class="col">
-                    <div class="row">
-                        <a class="btn btn-primary btn-lg" href="#" style="background-color: #576ce3; color: white;"
-                            role="button">RESULTADO I FASE</a>
-                    </div><br>
-                    <div class="row">
-                        <a class="btn btn-lg" href="#" style="background-color: #273582; color: white;"
-                            role="button">RESULTADO II FASE</a>
-                    </div><br>
-                    <div class="row">
-                        <a class="btn btn-primary btn-lg" style="background-color: #27282a; color: white;" href="#"
-                            role="button">CONTATO</a>
-                    </div>
-                </div>
+                <?php include '../../layout/barraLateral.php'; ?>
             </div>
-
 
         </div>
     </div>
