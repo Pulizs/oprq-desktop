@@ -17,7 +17,7 @@ $uploads_dir = './images';
 // movendo o arquivo de upload pra pasta
 move_uploaded_file($tname, $uploads_dir.'/'.$pname);
 
-$sql = "insert into tb_objetivos (titulo, conteudo, image) values (:titulo, :conteudo, :pname)";
+$sql = "insert into tb_avisos (titulo, conteudo, image) values (:titulo, :conteudo, :pname)";
 
 $stm = $pdo->prepare($sql);
 
@@ -48,7 +48,7 @@ include '../../layout/aprove.php';
                         <img src="../../../assets/img/verifi.gif" alt="" style="width: 40%;">
                     </center>
                     <div class="card-body">
-                        <p class="card-text">Objetivo criado com Sucesso</p>
+                        <p class="card-text">Aviso criado com Sucesso</p>
                         <a type="button" href="./index.php" class="btn btn-success">Feito!</a>
                     </div>
                 </div>

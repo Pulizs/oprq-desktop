@@ -13,6 +13,7 @@ create table tb_avisos(
 	id bigint not null auto_increment,
     titulo varchar(255),
     conteudo varchar(255),
+    image varchar(255),
     primary key(id)
 ) ENGINE = InnoDB;
 
@@ -20,6 +21,7 @@ create table tb_objetivos(
 	id bigint not null auto_increment,
     titulo varchar(255),
     conteudo varchar(255),
+    image varchar(255),
     primary key(id)
 ) ENGINE = InnoDB;
 
@@ -56,8 +58,10 @@ create table tb_fotos(
 	id bigint not null auto_increment,
     titulo varchar(255),
     conteudo varchar(255),
+    image varchar(255),
     primary key(id)
 ) ENGINE = InnoDB;
+
 
 -- inserindo valor na tabela adm
 insert into tb_adm (user, senha)

@@ -6,7 +6,7 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../home/index.php"
+                            <a class="nav-link active" aria-current="page" href="../avisos/index.php"
                                 style="color: white;">INICIO</a>
                         </li>
                         <li class="nav-item">

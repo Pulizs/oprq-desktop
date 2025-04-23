@@ -28,7 +28,7 @@ $_SESSION["usuario"] = "usr";
                     </center>
                     <div class="card-body">
                         <p class="card-text">Logout efetuado com Sucesso</p>
-                        <a type="button" href="../home/index.php" class="btn btn-success">Feito!</a>
+                        <a type="button" href="../avisos/index.php" class="btn btn-success">Feito!</a>
                     </div>
                 </div>
             </center>
