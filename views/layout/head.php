@@ -10,8 +10,12 @@
 
 <style>
     body {
-        overflow-x: hidden;
-        cursor: url(../../../assets/img/cursorgralha.cur);
+        cursor: url('../../../assets/img/cursorgralha.svg'), default;
+    }
+
+    a,
+    button {
+        cursor: url('../../../assets/img/clickPointer.svg'), pointer;
     }
 </style>
 

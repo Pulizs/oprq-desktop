@@ -4,10 +4,7 @@
 <head>
     <?php include '../../layout/head.php'; ?>
     <style>
-        body {
-            cursor: url("../../../assets/img/cursorgralha.png"), default;
-
-        }
+        
         /* #passarin {
             width: 100vw;
             position: absolute;
