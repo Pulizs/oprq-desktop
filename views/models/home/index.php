@@ -3,12 +3,26 @@
 
 <head>
     <?php include '../../layout/head.php'; ?>
+    <style>
+        body {
+            cursor: url("../../../assets/img/cursorgralha.png"), default;
+
+        }
+        /* #passarin {
+            width: 100vw;
+            position: absolute;
+            bottom: 0;
+            top: 0;
+            left: 90%;
+            transform: translateX(-50%);
+        } */
+
+    </style>
 </head>
 
 <body>
-
     <?php include '../../layout/navbarlogged.php'; ?>
-
+    <!-- <img src="../../../assets/img/voando-cima.gif" id="passarin" alt=""> -->
     <div class="bg-light p-5 rounded">
         <div class="container">
 

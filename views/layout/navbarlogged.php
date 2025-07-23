@@ -1,8 +1,10 @@
 <header>
-        <img src="../../../assets/img/banner.jpg" style="width: 100vw;" alt="">
+        <img src="../../../assets/img/banner.png" style="width: 100vw;" alt="">
 
         <nav class="navbar navbar-expand-lg" style="background-color: #080808; padding: 5px;">
             <div class="container-fluid">
+                <img src="../../../assets/img/gralha_pousandoparada.png" alt="" style="position: absolute; width: 10%; left: 0; bottom: 30%;
+                 margin: 0">
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
@@ -16,7 +18,7 @@
                             <a class="nav-link" href="../fotos/index.php" style="color: white;">FOTOS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="" style="color: white;">JOGO OPRQ</a>
+                            <a class="nav-link" href="https://jogosdigitaisifpr.github.io/meros2D" style="color: white;">JOGO OPRQ</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../locaisDeProva/index.php" style="color: white;">LOCAIS DE

@@ -8,6 +8,13 @@
     crossorigin="anonymous"></script>
 <title>OPRQ</title>
 
+<style>
+    body {
+        overflow-x: hidden;
+        cursor: url(../../../assets/img/cursorgralha.cur);
+    }
+</style>
+
 <?php
 session_start();
 // $_SESSION["usuario"] = "usr";

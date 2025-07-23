@@ -56,7 +56,8 @@ $objetivos = $statement->fetchAll(PDO::FETCH_ASSOC);
 									<img src="images/' . $objetivo['image'] . '" class="card-img-top" alt="..." style="width: 40%">
 								</center>
 									<div class="card-body">
-										<h5 class="card-title">' . $objetivo['titulo'] . '</h5>
+									<span class="badge rounded-pill text-bg-primary">Novo</span>
+										<h5 class="card-title">' . $objetivo['titulo'] . ' </h5> 
 										<p class="card-text">' . $objetivo['conteudo'] . '</p> ';
 
 								if ($_SESSION["usuario"] == "adm") {
