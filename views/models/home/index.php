@@ -14,6 +14,10 @@
             transform: translateX(-50%);
         } */
 
+            /* *{
+                overflow-x: hidden;
+            } */
+
     </style>
 </head>
 

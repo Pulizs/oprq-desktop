@@ -1,5 +1,5 @@
 <header>
-        <img src="../../../assets/img/banner.png" style="width: 100vw;" alt="">
+        <img src="../../../assets/img/banner.png" style="width: 98.8vw;" alt="">
 
         <nav class="navbar navbar-expand-lg" style="background-color: #080808; padding: 5px;">
             <div class="container-fluid">
@@ -18,7 +18,8 @@
                             <a class="nav-link" href="../fotos/index.php" style="color: white;">FOTOS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://jogosdigitaisifpr.github.io/meros2D" style="color: white;">JOGO OPRQ</a>
+                            <!-- <a class="nav-link" href="https://jogosdigitaisifpr.github.io/meros2D" style="color: white;">JOGO OPRQ</a> -->
+                            <a class="nav-link" href="../jogo/index.php" style="color: white;">JOGO OPRQ</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../locaisDeProva/index.php" style="color: white;">LOCAIS DE
