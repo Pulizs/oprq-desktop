@@ -1,12 +1,12 @@
 <header>
-    <img src="../../../assets/img/voando-cima.gif" width="60%" style="position: absolute; left: 40%;" id="passarin" alt="">
+    <img src="../../../assets/img/anim gralha pousando.gif" alt="" id="passarino" style="position: absolute; width: 28%; left: 19%; top: -8%; margin: 0">
+    <!-- <img src="../../../assets/img/voando-cima.gif" width="60%" style="position: absolute; left: 40%;" id="passarin" alt=""> -->
         <img src="../../../assets/img/banner.png" style="width: 98.8vw;" alt="">
 
         <nav class="navbar navbar-expand-lg" style="background-color: #080808; padding: 5px;">
             <div class="container-fluid">
-                <img src="../../../assets/img/anim gralha pousando.gif" alt="" id="passarino" style="position: absolute; width: 10%; left: 0; bottom: 60%; margin: 0">
-                <img src="../../../assets/img/gralha_pousandoparada.png" alt="" id="pousado" style="position: absolute; width: 10%; left: 0; bottom: 30%;
-                 margin: 0">
+                <!-- <img src="../../../assets/img/gralha_pousandoparada.png" alt="" id="pousado" style="position: absolute; width: 10%; left: 0; bottom: 30%;
+                 margin: 0"> -->
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
