@@ -13,11 +13,27 @@
         cursor: url('../../../assets/img/cursorgralha.svg'), default;
     }
 
+    #pousado {
+        display: none;
+    }
+
     a,
     button {
         cursor: url('../../../assets/img/clickPointer.svg'), pointer;
     }
 </style>
+
+<script>
+    setTimeout(() => {
+        document.getElementById("passarin").src = "frame-estatico.png";
+    }, 1600);
+    setTimeout(() => {
+        document.getElementById("passarino").src = "frame-estatico.png";
+    }, 1450);
+    setTimeout(function() {
+        document.getElementById("pousado").style.display = "block";
+    }, 1400);
+</script>
 
 <?php
 session_start();

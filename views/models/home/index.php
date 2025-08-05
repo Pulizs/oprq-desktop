@@ -22,8 +22,8 @@
 </head>
 
 <body>
-    <?php include '../../layout/navbarlogged.php'; ?>
     <!-- <img src="../../../assets/img/voando-cima.gif" id="passarin" alt=""> -->
+    <?php include '../../layout/navbarlogged.php'; ?>
     <div class="bg-light p-5 rounded">
         <div class="container">
 
