@@ -32,10 +32,10 @@
     }, 1450);
     setTimeout(function() {
         document.getElementById("pousado").style.display = "block";
-    }, 1400);
+    }, 1447);
 </script>
 
 <?php
 session_start();
-// $_SESSION["usuario"] = "usr";
+    $_SESSION["usuario"] = "usr";
 ?>

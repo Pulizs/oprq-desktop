@@ -1,7 +1,8 @@
 <header>
     <img src="../../../assets/img/anim gralha pousando.gif" alt="" id="passarino" style="position: absolute; width: 28%; left: 19%; top: -8%; margin: 0">
-    <!-- <img src="../../../assets/img/voando-cima.gif" width="60%" style="position: absolute; left: 40%;" id="passarin" alt=""> -->
-        <img src="../../../assets/img/banner.png" style="width: 98.8vw;" alt="">
+    <img src="../../../assets/img/voando-cima.gif" width="60%" style="position: absolute; left: 40%;" id="passarin" alt="">
+        <img src="../../../assets/img/bannerOpqr.png" style="width: 98.8vw;" alt="">
+        <img src="../../../assets/img/gralha_pousandoparada.png" id="pousado" alt="" style="position: absolute; width: 28%; left: 20%; top: -5%; margin: 0">
 
         <nav class="navbar navbar-expand-lg" style="background-color: #080808; padding: 5px;">
             <div class="container-fluid">
